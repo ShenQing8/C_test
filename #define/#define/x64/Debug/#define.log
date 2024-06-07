@@ -1,0 +1,6 @@
+﻿  #define.c
+D:\Code\#define\#define\#define.c(19,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Code\#define\#define\#define.c(20,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Code\#define\#define\#define.c(21,12): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\Code\#define\#define\#define.c(23,12): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+  #define.vcxproj -> D:\Code\#define\x64\Debug\#define.exe
