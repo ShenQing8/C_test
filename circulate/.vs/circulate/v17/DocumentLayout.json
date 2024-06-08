@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\circulate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0494463A-754B-45C5-9632-399196176C21}|circulate\\circulate.vcxproj|D:\\Code\\circulate\\circulate\\circulate.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0494463A-754B-45C5-9632-399196176C21}|circulate\\circulate.vcxproj|solutionrelative:circulate\\circulate.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 414,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "circulate.c",
+              "DocumentMoniker": "D:\\Code\\circulate\\circulate\\circulate.c",
+              "RelativeDocumentMoniker": "circulate\\circulate.c",
+              "ToolTip": "D:\\Code\\circulate\\circulate\\circulate.c",
+              "RelativeToolTip": "circulate\\circulate.c",
+              "ViewState": "AQIAAAUBAAAAAAAAAAAAAAQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2023-11-26T02:34:38.313Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
