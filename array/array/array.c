@@ -124,7 +124,7 @@ int main()
 	int arr[] = { 1,4,94,56,2,6,77,332,7,7,15 };
 	int sz = sizeof(arr) / sizeof(arr[0]);
 	//将数组内数据按升序重排
-	/*bubble_sort(arr,sz);*/
+	//bubble_sort(arr,sz);
 	qsort(arr, sz, sizeof(arr[0]), num_cmp);
 	//打印数据
 	int i = 0;
