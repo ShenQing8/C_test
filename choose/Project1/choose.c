@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 int main()
@@ -16,4 +17,24 @@ int main()
 		printf("À¿–Ã£°±ÿ–ÎÀ¿–Ã£°£°£°\n");
 	}
 	return 0;
+=======
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main()
+{
+	int “™ = 0;
+	int ≤ª“™ = 1;
+	int input = 0;
+	printf("“™≥È‹Ω‹Ω¬£ø");
+	scanf("%d", &input);
+	if (input == 0)
+	{
+		printf("ª∂”≠º”»Î‹Ω√≈£°\n");
+	}
+	else
+	{
+		printf("À¿–Ã£°±ÿ–ÎÀ¿–Ã£°£°£°\n");
+	}
+	return 0;
+>>>>>>> fd964f040410f8ffe45ace40c74eef4a11ec6888
 }
