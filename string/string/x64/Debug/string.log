@@ -1,0 +1,3 @@
+﻿  test.c
+D:\Code\string\string\test.c(122,5): warning C4090: “return”: 不同的“const”限定符
+  string.vcxproj -> D:\Code\string\x64\Debug\string.exe
