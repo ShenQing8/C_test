@@ -1,0 +1,5 @@
+﻿  game.c
+D:\Code\minesweeper\minesweeper\game.c(187,37): warning C4047: “函数”:“int *”与“int **”的间接级别不同
+D:\Code\minesweeper\minesweeper\game.c(187,37): warning C4024: “Secure”: 形参和实参 6 的类型不同
+D:\Code\minesweeper\minesweeper\game.c(194,15): warning C4552: ”-“: 未使用表达式结果
+  minesweeper.vcxproj -> D:\Code\minesweeper\x64\Debug\minesweeper.exe
