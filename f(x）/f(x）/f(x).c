@@ -1,5 +1,6 @@
 #define  _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
+#include "print.h"
 
 //函数的定义和声明
 //函数的嵌套：一个函数中可以使用另一个函数
@@ -411,8 +412,6 @@
 	//register int a = 10;
 
 //	return 0;
-//
-// 
 //}
 
 extern x;
