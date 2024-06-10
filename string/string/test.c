@@ -146,16 +146,78 @@ char* my_strstr(const char* str1, const char* str2)
 //strtok:拆分字符串
 //
 
+//int main()
+//{
+//	char email[] = "mkikaskkkkkkiss12345@gmail.com";
+//	char sp[] = "@.";
+//	char tmp[40] = { 0 };
+//	strcpy(tmp, email);
+//	char* ret;
+//	for (ret = strtok(tmp, sp); ret != NULL; ret = strtok(NULL, sp))
+//	{
+//		printf("%s\n", ret);
+//	}
+//	return 0;
+//}
+
+//memcpy与memmove
+
+void* my_memcpy(void* dest, const void* sor, size_t num)
+{
+	assert(dest && sor);
+	void* ret = dest;
+	while (num--)
+	{
+		*(char*)dest = *(char*)sor;
+		dest = (char*)dest + 1;
+		sor = (char*)sor + 1;
+	}
+	return ret;
+}
+void* my_memmove(void* dest, const void* sor, size_t num)
+{
+	assert(dest && sor);
+	void* ret = dest;
+	//从前向后复制
+	if (dest < sor)
+	{
+		while (num--)
+		{
+			*(char*)dest = *(char*)sor;
+			dest = (char*)dest + 1;
+			sor = (char*)sor + 1;
+		}
+	}
+	//从后向前复制
+	else
+	{
+		while (num--)
+		{
+			*((char*)dest + num) = *((char*)sor + num);
+		}
+	}
+	return ret;
+}
 int main()
 {
-	char email[] = "mkikaskkkkkkiss12345@gmail.com";
-	char sp[] = "@.";
-	char tmp[40] = { 0 };
-	strcpy(tmp, email);
-	char* ret;
-	for (ret = strtok(tmp, sp); ret != NULL; ret = strtok(NULL, sp))
+	int arr1[] = { 1,2,3,4,5,6,7,8,9,10 };
+	int arr2[20] = { 0 };
+
+	//memcpy(arr2, arr1, 24);
+	//my_memcpy(arr2, arr1, 24);
+	
+	//memmove(arr1 + 2, arr1, 24);
+	my_memmove(arr1 + 2, arr1, 24);
+
+	int i = 0;
+	for (i = 0; i < 10; i++)
 	{
-		printf("%s\n", ret);
+		printf("%d ", arr1[i]);
+	}
+	printf("\n");
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d ", arr2[i]);
 	}
 	return 0;
 }
