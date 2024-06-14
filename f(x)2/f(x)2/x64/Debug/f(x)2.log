@@ -1,0 +1,4 @@
+﻿  f(x)2.c
+D:\Code\f(x)2\f(x)2\f(x)2.c(473,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“int *”
+D:\Code\f(x)2\f(x)2\f(x)2.c(473,9): warning C4313: "printf": 格式字符串中的 "%u" 与类型为 "int *" 的参数 1 冲突
+  f(x)2.vcxproj -> D:\Code\f(x)2\x64\Debug\f(x)2.exe
