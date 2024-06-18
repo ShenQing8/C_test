@@ -453,72 +453,82 @@
 //	}
 //	return 0;
 //}
-#define ROW 3
-#define CLN 3
-int yang_surch(const int arr[ROW][CLN], char tag[ROW][CLN], const int t)
-{
-	if (t<arr[0][0] || t>arr[ROW - 1][CLN - 1])
-		return 0;
-	int row = 0;
-	int cln = CLN - 1;
 
-	while (row <= ROW - 1 && cln >= 0)
-	{
-		if (t < arr[row][cln])
-			cln--;
-		else if (t > arr[row][cln])
-			row++;
-		else
-		{
-			if (tag[row][cln] == '1')
-			{
-				tag[row][cln] = '0';
-				return 1;
-			}
-			else
-			{
-				cln--;
-				row++;
-			}
-		}
-	}
-	return 0;
-}
+//#define ROW 3
+//#define CLN 3
+//int yang_surch(const int arr[ROW][CLN], char tag[ROW][CLN], const int t)
+//{
+//	if (t<arr[0][0] || t>arr[ROW - 1][CLN - 1])
+//		return 0;
+//	int row = 0;
+//	int cln = CLN - 1;
+//
+//	while (row <= ROW - 1 && cln >= 0)
+//	{
+//		if (t < arr[row][cln])
+//			cln--;
+//		else if (t > arr[row][cln])
+//			row++;
+//		else
+//		{
+//			if (tag[row][cln] == '1')
+//			{
+//				tag[row][cln] = '0';
+//				return 1;
+//			}
+//			else
+//			{
+//				cln--;
+//				row++;
+//			}
+//		}
+//	}
+//	return 0;
+//}
+//int main()
+//{
+//	//int arr[3][3] = { 1,2,3,4,5,6,7,8,9 };
+//	int arr[ROW][CLN] = { 1,2,3,2,3,4,3,4,5 };
+//	char tag[ROW][CLN];
+//	int sz = sizeof(tag);
+//	memset(tag, '1', sz);
+//
+//	int row = sizeof(arr) / sizeof(arr[0]);
+//	int cln = sizeof(arr[0]) / sizeof(arr[0][0]);
+//	int target = 0;
+//	scanf("%d", &target);
+//	//查看是否存在
+//	int ret = 1;
+//	while (ret)
+//	{
+//		ret = yang_surch(arr, tag, target);
+//	}
+//	//询问是否获取坐标
+//	printf("是否查看坐标？（1/0）");
+//	int q = -1;
+//	scanf("%d", &q);
+//	if (q == 1)
+//	{
+//		int i = 0;
+//		int j = 0;
+//		for (i = 0; i < 3; i++)
+//		{
+//			for (j = 0; j < 3; j++)
+//			{
+//				if (tag[i][j] == '0')
+//					printf("%d %d", i, j);
+//			}
+//			printf("\n");
+//		}
+//	}
+//	return 0;
+//}
+
 int main()
 {
-	//int arr[3][3] = { 1,2,3,4,5,6,7,8,9 };
-	int arr[ROW][CLN] = { 1,2,3,2,3,4,3,4,5 };
-	char tag[ROW][CLN];
-	int sz = sizeof(tag);
-	memset(tag, '1', sz);
-
-	int row = sizeof(arr) / sizeof(arr[0]);
-	int cln = sizeof(arr[0]) / sizeof(arr[0][0]);
-	int target = 0;
-	scanf("%d", &target);
-	//查看是否存在
-	int ret = 1;
-	while (ret)
-	{
-		ret = yang_surch(arr, tag, target);
-	}
-	//询问是否获取坐标
-	printf("是否查看坐标？（1/0）");
-	int q = -1;
-	scanf("%d", &q);
-	if (q == 1)
-	{
-		int i = 0;
-		int j = 0;
-		for (i = 0; i < 3; i++)
-		{
-			for (j = 0; j < 3; j++)
-			{
-				if (tag[i][j] == '0')
-					printf("%d %d", i, j);
-			}
-			printf("\n");
-		}
-	}
+	char a;
+	scanf("%c", &a);
+	if (a == 'y' || a == 'Y')
+		printf("%c", a);
 	return 0;
 }
