@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\phonebook\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EED63852-C8BB-41B2-A90E-B8A12D195EF0}|phonebook\\phonebook.vcxproj|D:\\Code\\phonebook\\phonebook\\contact.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EED63852-C8BB-41B2-A90E-B8A12D195EF0}|phonebook\\phonebook.vcxproj|solutionrelative:phonebook\\contact.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED63852-C8BB-41B2-A90E-B8A12D195EF0}|phonebook\\phonebook.vcxproj|D:\\Code\\phonebook\\phonebook\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EED63852-C8BB-41B2-A90E-B8A12D195EF0}|phonebook\\phonebook.vcxproj|solutionrelative:phonebook\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED63852-C8BB-41B2-A90E-B8A12D195EF0}|phonebook\\phonebook.vcxproj|D:\\Code\\phonebook\\phonebook\\contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EED63852-C8BB-41B2-A90E-B8A12D195EF0}|phonebook\\phonebook.vcxproj|solutionrelative:phonebook\\contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 267,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "contact.h",
+              "DocumentMoniker": "D:\\Code\\phonebook\\phonebook\\contact.h",
+              "RelativeDocumentMoniker": "phonebook\\contact.h",
+              "ToolTip": "D:\\Code\\phonebook\\phonebook\\contact.h",
+              "RelativeToolTip": "phonebook\\contact.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-17T07:48:29.374Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test.c",
+              "DocumentMoniker": "D:\\Code\\phonebook\\phonebook\\test.c",
+              "RelativeDocumentMoniker": "phonebook\\test.c",
+              "ToolTip": "D:\\Code\\phonebook\\phonebook\\test.c",
+              "RelativeToolTip": "phonebook\\test.c",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-17T07:47:28.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "contact.c",
+              "DocumentMoniker": "D:\\Code\\phonebook\\phonebook\\contact.c",
+              "RelativeDocumentMoniker": "phonebook\\contact.c",
+              "ToolTip": "D:\\Code\\phonebook\\phonebook\\contact.c",
+              "RelativeToolTip": "phonebook\\contact.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAN0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-17T07:48:15.924Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

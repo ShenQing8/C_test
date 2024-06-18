@@ -1,0 +1,6 @@
+﻿  contact.c
+  test.c
+D:\Code\phonebook\phonebook\test.c(31,12): warning C4047: “函数”:“PeoIfm *”与“PeoIfm (*)[100]”的间接级别不同
+D:\Code\phonebook\phonebook\test.c(31,12): warning C4024: “Add_Peo”: 形参和实参 1 的类型不同
+  正在生成代码...
+  phonebook.vcxproj -> D:\Code\phonebook\x64\Debug\phonebook.exe

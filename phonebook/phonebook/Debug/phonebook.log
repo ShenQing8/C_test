@@ -1,0 +1,6 @@
+﻿  contact.c
+D:\Code\phonebook\phonebook\contact.c(221,10): warning C4090: “函数”: 不同的“const”限定符
+  test.c
+D:\Code\phonebook\phonebook\test.c(41,4): warning C4013: “Crc_Peo”未定义；假设外部返回 int
+  正在生成代码...
+  phonebook.vcxproj -> D:\Code\phonebook\Debug\phonebook.exe
