@@ -523,6 +523,7 @@
 //	}
 //	return 0;
 //}
+//
 
 int main()
 {
@@ -530,5 +531,7 @@ int main()
 	scanf("%c", &a);
 	if (a == 'y' || a == 'Y')
 		printf("%c", a);
+	else
+		printf("NO");
 	return 0;
 }
