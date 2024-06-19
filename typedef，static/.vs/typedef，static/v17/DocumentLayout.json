@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\typedef\uFF0Cstatic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A604B3BB-FAEB-4C25-9864-FBDFD0426849}|typedef\uFF0Cstatic\\typedef\uFF0Cstatic.vcxproj|D:\\Code\\typedef\uFF0Cstatic\\typedef\uFF0Cstatic\\typedef and static.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A604B3BB-FAEB-4C25-9864-FBDFD0426849}|typedef\uFF0Cstatic\\typedef\uFF0Cstatic.vcxproj|solutionrelative:typedef\uFF0Cstatic\\typedef and static.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A604B3BB-FAEB-4C25-9864-FBDFD0426849}|typedef\uFF0Cstatic\\typedef\uFF0Cstatic.vcxproj|D:\\Code\\typedef\uFF0Cstatic\\typedef\uFF0Cstatic\\text.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A604B3BB-FAEB-4C25-9864-FBDFD0426849}|typedef\uFF0Cstatic\\typedef\uFF0Cstatic.vcxproj|solutionrelative:typedef\uFF0Cstatic\\text.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "text.c",
+              "DocumentMoniker": "D:\\Code\\typedef\uFF0Cstatic\\typedef\uFF0Cstatic\\text.c",
+              "RelativeDocumentMoniker": "typedef\uFF0Cstatic\\text.c",
+              "ToolTip": "D:\\Code\\typedef\uFF0Cstatic\\typedef\uFF0Cstatic\\text.c",
+              "RelativeToolTip": "typedef\uFF0Cstatic\\text.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2023-11-08T12:13:32.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "typedef and static.c",
+              "DocumentMoniker": "D:\\Code\\typedef\uFF0Cstatic\\typedef\uFF0Cstatic\\typedef and static.c",
+              "RelativeDocumentMoniker": "typedef\uFF0Cstatic\\typedef and static.c",
+              "ToolTip": "D:\\Code\\typedef\uFF0Cstatic\\typedef\uFF0Cstatic\\typedef and static.c",
+              "RelativeToolTip": "typedef\uFF0Cstatic\\typedef and static.c",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2023-11-08T11:20:26.912Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

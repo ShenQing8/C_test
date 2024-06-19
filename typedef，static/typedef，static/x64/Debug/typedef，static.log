@@ -1,0 +1,5 @@
+﻿  text.c
+  typedef and static.c
+  正在生成代码...
+typedef and static.obj : error LNK2019: 无法解析的外部符号 Add，函数 main 中引用了该符号
+D:\Code\typedef，static\x64\Debug\typedef，static.exe : fatal error LNK1120: 1 个无法解析的外部命令
