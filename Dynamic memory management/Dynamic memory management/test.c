@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <errno.h>
 
 //
 //内存可大致分为：栈区、堆区、静态区
@@ -105,13 +106,57 @@
 //	}
 //	return 0;
 //}
-
+typedef struct ch
+{
+	char  arr[20];
+}ch;
 int main()
 {
-	int* p = (int*)malloc(40);
-	while (1)
+	//int* p = (int*)malloc(40);
+	//char* p = (char*)calloc(2,20);
+	ch a;
+	ch* p = (ch*)calloc(1, sizeof(ch));
+	if (p == NULL)
 	{
-		p = realloc(p, 40);
+		printf("%s\n", strerror(errno));
+		return 1;
+	}
+	//int i = 0;
+	//for (i = 0; i < 10; i++)
+	//{
+	//	*(p + i) = i;
+	//}
+	
+	//while (1)
+	//{
+	//	p = realloc(p, 40);
+	//}
+	
+	//int* tmp = (int*)realloc(p, 0 + 10 * sizeof(int));
+	//char* tmp = (char*)realloc(p, 40);
+	ch* tmp = (ch*)realloc(p, 2 * sizeof(ch));
+	if (tmp == NULL)
+	{
+		return 1;
+	}
+	else
+	{
+		p = tmp;
+		tmp = NULL;
 	}
 	return 0;
 }
+
+//int main()
+//{
+//	int* p = (int*)malloc(40);
+//	printf("%d\n", sizeof(*p));
+//	//不可行
+//	//free(p+9);
+//	
+//	//可行
+//	int* tmp = (int*)realloc(p, 36);
+//
+//	printf("%d\n", sizeof(*p));
+//	return 0;
+//}
