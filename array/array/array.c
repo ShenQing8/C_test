@@ -100,38 +100,92 @@ void Swap(int* p1, int* p2)
 //	}
 //}
 //形参是指针形式
-void bubble_sort(int* arr, int sz)
+
+//void bubble_sort(int* arr, int sz)
+//{
+//	//确定趟数
+//	int i = 0;
+//	for (i = 0; i < sz - 1; i++)
+//	{
+//		//确定比较次数
+//		int j = 0;
+//		for (j = 0; j < sz - 1 - i; j++)
+//		{
+//			//进行比较
+//			if (arr[j] > arr[j + 1])
+//				Swap(&arr[j], &arr[j + 1]);
+//		}
+//	}
+//}
+//int num_cmp(const void* a, const void* b)
+//{
+//	return *(int*)a - *(int*)b;
+//}
+//int main()
+//{
+//	int arr[] = { 1,4,94,56,2,6,77,332,7,7,15 };
+//	int sz = sizeof(arr) / sizeof(arr[0]);
+//	//将数组内数据按升序重排
+//	//bubble_sort(arr,sz);
+//	qsort(arr, sz, sizeof(arr[0]), num_cmp);
+//	//打印数据
+//	int i = 0;
+//	for (i = 0; i < sz; i++)
+//	{
+//		printf("%d ", arr[i]);
+//	}
+//	return 0;
+//}
+
+//柔性数组
+//c99中，结构体中最后一个成员允许是大小未知的数组，叫做柔性数组
+
+//结构体中，柔性数组成员前至少有一个其他成员
+//sizeof返回结构体的大小不包括柔性数组的大小
+//包含柔性数组的结构用malloc()进行动态内存分配，并且分配的大小应大于结构的的大小，以适应柔性数组的预期大小
+
+typedef struct S
 {
-	//确定趟数
-	int i = 0;
-	for (i = 0; i < sz - 1; i++)
-	{
-		//确定比较次数
-		int j = 0;
-		for (j = 0; j < sz - 1 - i; j++)
-		{
-			//进行比较
-			if (arr[j] > arr[j + 1])
-				Swap(&arr[j], &arr[j + 1]);
-		}
-	}
-}
-int num_cmp(const void* a, const void* b)
-{
-	return *(int*)a - *(int*)b;
-}
+	int a;
+	int arr[];
+	//或
+	//int arr[0];
+}S;
 int main()
 {
-	int arr[] = { 1,4,94,56,2,6,77,332,7,7,15 };
-	int sz = sizeof(arr) / sizeof(arr[0]);
-	//将数组内数据按升序重排
-	//bubble_sort(arr,sz);
-	qsort(arr, sz, sizeof(arr[0]), num_cmp);
-	//打印数据
-	int i = 0;
-	for (i = 0; i < sz; i++)
+	//int sz = sizeof(S);
+	//printf("%d\n", sz);
+
+	S* ps = (S*)malloc(sizeof(S) + 40);
+	if (ps == NULL)
 	{
-		printf("%d ", arr[i]);
+		return 1;
+	}
+	int i = 0;
+	for (i = 0; i < 10; i++)
+	{
+		ps->arr[i] = i;
+	}
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d ", ps->arr[i]);
+	}
+	printf("\n");
+	S* tmp = (S*)realloc(ps, sizeof(S) + 80);
+	if (tmp == NULL)
+		return 1;
+	else
+	{
+		ps = tmp;
+		tmp = NULL;
+	}
+	for (i = 0; i < 20; i++)
+	{
+		*(ps->arr+i) = i;
+	}
+	for (i = 0; i < 20; i++)
+	{
+		printf("%d ", *(ps->arr + i));
 	}
 	return 0;
 }
