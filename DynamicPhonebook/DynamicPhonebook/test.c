@@ -55,6 +55,7 @@ int main()
 			Sort_Peo(&book);
 			break;
 		case EXI:
+			Distroy(&book);
 			break;
 		default:
 			printf("Ñ¡Ôñ´íÎó\n");

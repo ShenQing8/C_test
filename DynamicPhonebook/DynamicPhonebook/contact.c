@@ -229,3 +229,11 @@ void Sort_Peo(const Contact* pc)
 	qsort(pc->pp, pc->count, sizeof(PeoIfm), cmp_name);
 	printf("ÅÅÐò³É¹¦\n");
 }
+
+//Ïú»Ù
+void Distroy(Contact* pc)
+{
+	assert(pc);
+	free(pc->pp);
+	pc = NULL;
+}

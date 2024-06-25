@@ -48,3 +48,7 @@ void Pre_Peo(const Contact* pc);
 //ÅÅÐò
 void Sort_Peo(const Contact* pc);
 
+//Ïú»Ù
+void Distroy(Contact* pc);
+
+

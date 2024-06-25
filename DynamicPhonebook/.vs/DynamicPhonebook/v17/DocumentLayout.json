@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Code\\DynamicPhonebook\\",
+  "WorkspaceRootPath": "D:\\github Code\\C_test\\DynamicPhonebook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{851FB8C7-886B-4DDA-8057-EB3AFAB5AF61}|DynamicPhonebook\\DynamicPhonebook.vcxproj|D:\\Code\\DynamicPhonebook\\DynamicPhonebook\\contact.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{851FB8C7-886B-4DDA-8057-EB3AFAB5AF61}|DynamicPhonebook\\DynamicPhonebook.vcxproj|solutionrelative:DynamicPhonebook\\contact.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{851FB8C7-886B-4DDA-8057-EB3AFAB5AF61}|DynamicPhonebook\\DynamicPhonebook.vcxproj|D:\\Code\\DynamicPhonebook\\DynamicPhonebook\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{851FB8C7-886B-4DDA-8057-EB3AFAB5AF61}|DynamicPhonebook\\DynamicPhonebook.vcxproj|D:\\github Code\\C_test\\DynamicPhonebook\\DynamicPhonebook\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{851FB8C7-886B-4DDA-8057-EB3AFAB5AF61}|DynamicPhonebook\\DynamicPhonebook.vcxproj|solutionrelative:DynamicPhonebook\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{851FB8C7-886B-4DDA-8057-EB3AFAB5AF61}|DynamicPhonebook\\DynamicPhonebook.vcxproj|D:\\Code\\DynamicPhonebook\\DynamicPhonebook\\contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{851FB8C7-886B-4DDA-8057-EB3AFAB5AF61}|DynamicPhonebook\\DynamicPhonebook.vcxproj|D:\\github Code\\C_test\\DynamicPhonebook\\DynamicPhonebook\\contact.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{851FB8C7-886B-4DDA-8057-EB3AFAB5AF61}|DynamicPhonebook\\DynamicPhonebook.vcxproj|solutionrelative:DynamicPhonebook\\contact.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851FB8C7-886B-4DDA-8057-EB3AFAB5AF61}|DynamicPhonebook\\DynamicPhonebook.vcxproj|D:\\github Code\\C_test\\DynamicPhonebook\\DynamicPhonebook\\contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{851FB8C7-886B-4DDA-8057-EB3AFAB5AF61}|DynamicPhonebook\\DynamicPhonebook.vcxproj|solutionrelative:DynamicPhonebook\\contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -22,43 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 393,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "contact.h",
-              "DocumentMoniker": "D:\\Code\\DynamicPhonebook\\DynamicPhonebook\\contact.h",
+              "DocumentMoniker": "D:\\github Code\\C_test\\DynamicPhonebook\\DynamicPhonebook\\contact.h",
               "RelativeDocumentMoniker": "DynamicPhonebook\\contact.h",
-              "ToolTip": "D:\\Code\\DynamicPhonebook\\DynamicPhonebook\\contact.h",
+              "ToolTip": "D:\\github Code\\C_test\\DynamicPhonebook\\DynamicPhonebook\\contact.h",
               "RelativeToolTip": "DynamicPhonebook\\contact.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADMAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-06-22T10:32:05.466Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "test.c",
-              "DocumentMoniker": "D:\\Code\\DynamicPhonebook\\DynamicPhonebook\\test.c",
+              "DocumentMoniker": "D:\\github Code\\C_test\\DynamicPhonebook\\DynamicPhonebook\\test.c",
               "RelativeDocumentMoniker": "DynamicPhonebook\\test.c",
-              "ToolTip": "D:\\Code\\DynamicPhonebook\\DynamicPhonebook\\test.c",
+              "ToolTip": "D:\\github Code\\C_test\\DynamicPhonebook\\DynamicPhonebook\\test.c",
               "RelativeToolTip": "DynamicPhonebook\\test.c",
-              "ViewState": "AQIAABMAAAAAAAAAAAAuwCcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-22T10:35:31.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "contact.c",
-              "DocumentMoniker": "D:\\Code\\DynamicPhonebook\\DynamicPhonebook\\contact.c",
+              "DocumentMoniker": "D:\\github Code\\C_test\\DynamicPhonebook\\DynamicPhonebook\\contact.c",
               "RelativeDocumentMoniker": "DynamicPhonebook\\contact.c",
-              "ToolTip": "D:\\Code\\DynamicPhonebook\\DynamicPhonebook\\contact.c",
+              "ToolTip": "D:\\github Code\\C_test\\DynamicPhonebook\\DynamicPhonebook\\contact.c",
               "RelativeToolTip": "DynamicPhonebook\\contact.c",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAAAAAA",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAAANoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-22T10:31:09.18Z",
               "EditorCaption": ""
